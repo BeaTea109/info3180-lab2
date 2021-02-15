@@ -1,3 +1,48 @@
-body {
-    padding-top: 5rem;
+.header {
+  background-image: linear-gradient(to bottom right, purple, yellow);
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+  border-radius: 25px;
+
+		}
+#mejpeg {
+	border-radius: 50%;
+
+		}
+h2 {
+	margin: auto;
+	font-size: 35px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+h3 {
+	margin: auto;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+p{
+	margin: auto;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	padding-top: 15px;
+	padding-left: 300px;
+	padding-right: 300px;
+}
+
+button {
+	margin: auto;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 10px;
+}
+
+.button{
+	padding-top: 30px;
+	text-align: center;
 }

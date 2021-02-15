@@ -1,0 +1,30 @@
+{% extends "base.html" %} 
+{% block main %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>INFO2180 Lab 2</title>
+ <link rel="stylesheet" href="../static/css/app.css">
+</head>
+<body>
+<div class="container">
+ <header>
+ 	<div class="header">
+ 		<!--<img id="mejpeg" src="me.jpg" alt="Me" height="200" width="200"><br>-->
+ 		<img id = "mejpeg" src = "{{url_for('static', filename ='me.jpg')}}" ><br>
+ 		<h2>Brandon Tucker</h2>
+ 		<h3>@Teagann</h3>
+ 		<h3>Kingston, Jamaica</h3>
+ 		<h3 id = "datejoined">Joined {{ date_joined }}</h3>
+ 	</div>
+ 		<p> I am a smart and talented young warior who enjoys crusading and sometimes website design. Contact me if you would like to retake the holy land.</p>
+ 		<p id="stats"><b> 7		100		250</b></p>
+ 		<p>Posts		Following		Followers</p>  
+ 	<div class="button">
+ 		<button type="button">Follow</button>
+ 	</div>
+	</div>
+ </header>
+ {% endblock %}
